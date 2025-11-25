@@ -1,0 +1,14 @@
+posa = ['millie','yuri','mecko','mocha','kiwi','minnie','orange','tootie']
+
+print(posa[-1])
+posa_dictionary = {'mama ng mga posa':'millie','posang matakaw':'yuri','mabait na posa':'mecko','posang mataba':'mocha','posang laging galit':'kiwi','posang duling':'minnie','posang bolag':'orange','posang bolag 2.0':'tootie'}
+
+print(posa_dictionary['mama ng mga posa'])
+
+posa_dictionary['posang puti'] = 'whitey'
+
+print(posa_dictionary)
+
+posa_dictionary.pop('posang puti')
+
+print(posa_dictionary)
